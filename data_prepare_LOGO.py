@@ -11,7 +11,7 @@ from models.i3d import I3D
 from utils import parser
 
 class Extract_feature(torch.utils.data.Dataset):
-    def __init__(self, args, subset , save_path = './i3d_features.pkl'):
+    def __init__(self, args, subset , save_path = './data/LOGO/i3d_features_LOGO.pkl'):
         random.seed(args.seed)
 
         self.args = args
@@ -184,4 +184,4 @@ class Extract_feature(torch.utils.data.Dataset):
 if __name__ == '__main__':
     args = parser.get_args()
     parser.setup(args)
-    e = Extract_feature(args , 'train' , save_path= './i3d_features.pkl')
+    e = Extract_feature(args , 'train' , save_path= './data/LOGO/i3d_features_LOGO.pkl')

@@ -1,7 +1,9 @@
 
 # ORMamba: A Ordinal Regression Framework with Multi-Scale Temporal Fusion Mamba for Action Quality Assessment
 
-This repository contains the PyTorch implementation for ORMamba (**ICME 2026**). **Our model checkpoints and preprocessed datasets will be made publicly available upon acceptance of the paper.**
+This repository contains the PyTorch implementation for ORMamba (**ICME 2026**). 
+
+**Our model checkpoints and preprocessed datasets will be made publicly available upon acceptance of the paper.**
 
 we propose Ordinal Regression Mamba (*__ORMamba__*), an end-to-end AQA framework. ORMamba incorporates a multi-scale temporal fusion Mamba module to capture long-range spatiotemporal dynamics and explicitly models mistaken actions to learn more discriminative representations.Additionally, the framework integrates ordinal regression with contrastive regression for coarse-to-fine precise score estimation, which significantly improves the overall performance.
 

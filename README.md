@@ -20,11 +20,22 @@ Make sure the following dependencies installed (python):
 * timm
 * torch_videovision
 * CUDA >= 12.4
+* triton == 3.1.0
+* causal-conv1d
+
+
 
 ```
 pip install git+https://github.com/hassony2/torch_videovision
-```
 
+cd mamba-requirements/causal-conv1d
+python setup.py install
+
+cd ..
+
+cd mamba-2.2.2
+python setup.py install
+```
 
 
 ### Download initial I3D 

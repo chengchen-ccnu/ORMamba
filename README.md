@@ -22,6 +22,7 @@ Make sure the following dependencies installed (python):
 * CUDA >= 12.4
 * triton == 3.1.0
 * causal-conv1d
+* mamba-ssm == 2.2.2
 
 
 

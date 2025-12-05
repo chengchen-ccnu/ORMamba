@@ -1,0 +1,42 @@
+# basic setting
+bs_train : 25
+bs_test : 1
+workers : 0
+step_per_update: 1
+max_epoch : 200
+warmup_epochs: 5
+
+# model setting
+#pretrained_i3d_weight : './MTL-AQA/model_rgb.pth'
+RT_depth : 5
+score_range : 100
+voter_number : 10
+resume: False
+model: 'mtfmamba'
+
+# dataset setting
+pretrained_i3d_weight : 'data/model_rgb.pth'
+
+data_root : 'data/LOGO/Video_result'
+label_path : 'data/LOGO/LOGO Anno&Split/anno_dict.pkl'
+train_split : 'data/LOGO/LOGO Anno&Split/train_split3.pkl'
+test_split : 'data/LOGO/LOGO Anno&Split/test_split3.pkl'
+feature_path: 'data/LOGO/i3d_features_LOGO.pkl'
+log_path: './loss_rho_rl2_log.xlsx'
+
+dive_number_choosing : False
+usingDD: False
+frame_length : 5406
+seed : 3407
+temporal_shift_min : -3
+temporal_shift_max : 0
+mistaken_threshold: -3
+
+# optimizer setting
+optimizer: 'Adam'
+weight_decay : 0
+base_lr : 0.001
+lr_factor : 0.1
+use_scheduler: True
+# others
+print_freq : 40

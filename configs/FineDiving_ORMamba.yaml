@@ -1,0 +1,41 @@
+# basic setting
+bs_train : 4
+bs_test : 1
+workers : 8
+step_per_update: 2
+max_epoch : 400
+warmup_epochs: 5
+
+# model setting
+#pretrained_i3d_weight : './MTL-AQA/model_rgb.pth'
+RT_depth : 5
+score_range : 30
+voter_number : 10
+resume: False
+model: 'mtfmamba'
+
+# dataset setting
+pretrained_i3d_weight : 'data/model_rgb.pth'
+
+data_root : './data/FineDiving/FINADiving_MTL_256s'
+label_path : './data/FineDiving/Annotations/fine-grained_annotation_aqa.pkl'
+train_split : './data/FineDiving/Annotations/train_split.pkl'
+test_split : './data/FineDiving/Annotations/test_split.pkl'
+data_mask_root: 'data/FineDiving/diving_mask_annotation'
+dive_number_choosing : False
+usingDD: True
+frame_length : 103
+seed : 9993
+temporal_shift_min : -3
+temporal_shift_max : 0
+mistaken_threshold: -3
+log_path: './loss_rho_rl2_log.xlsx'
+
+# optimizer setting
+optimizer: 'Adam'
+weight_decay : 0
+base_lr : 0.001
+lr_factor : 0.1
+
+# others
+print_freq : 40

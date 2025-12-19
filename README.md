@@ -16,7 +16,7 @@ we propose Ordinal Regression Mamba (*__ORMamba__*), an end-to-end AQA framework
 <table style="width:100%; border-collapse:collapse; font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; font-size:14px;">
   <thead>
     <tr style="background:#d9e1f2;color:#0b3a8a;">
-      <th rowspan="2" style="padding:10px 12px; text-align:left; border-right:1px solid #bbb;">Method</th>
+      <th rowspan="2" style="padding:10px 12px; text-align:center; border-right:1px solid #bbb;">Method</th>
       <th colspan="3" style="padding:10px 12px; text-align:center; border-right:1px solid #bbb;">FineDiving dataset</th>
       <th colspan="3" style="padding:10px 12px; text-align:center;">LOGO dataset</th>
     </tr>
@@ -31,7 +31,7 @@ we propose Ordinal Regression Mamba (*__ORMamba__*), an end-to-end AQA framework
   </thead>
   <tbody>
     <tr style="background:#fff;">
-      <td style="padding:10px 12px; border-top:1px solid #eee;">Previous SOTA</td>
+      <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee;">Previous SOTA</td>
       <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee;">0.9501</td>
       <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee;">0.2294</td>
       <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee;">TPAMI 2025</td>
@@ -40,7 +40,7 @@ we propose Ordinal Regression Mamba (*__ORMamba__*), an end-to-end AQA framework
       <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee;">TIP 2025</td>
     </tr>
     <tr style="background:#f0f4ff; font-weight:600;">
-      <td style="padding:10px 12px; border-top:1px solid #eee;">ORMamba(Ours)</td>
+      <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee;">ORMamba(Ours)</td>
       <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee; color:#0b3a8a;">0.9505</td>
       <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee; color:#0b3a8a;">0.2056</td>
       <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee;">ICME 2026</td>

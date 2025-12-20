@@ -41,11 +41,11 @@ we propose Ordinal Regression Mamba (*__ORMamba__*), an end-to-end AQA framework
     </tr>
     <tr style="background:#f0f4ff; font-weight:600;">
       <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee;">ORMamba(Ours)</td>
-      <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee; color:#0b3a8a;">0.9505</td>
-      <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee; color:#0b3a8a;">0.2056</td>
+      <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee; color:#0b3a8a; font-weight: bold;">0.9505</td>
+      <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee; color:#0b3a8a; font-weight: bold;">0.2056</td>
       <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee;">ICME 2026</td>
-      <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee; color:#0b3a8a;">0.7503</td>
-      <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee; color:#0b3a8a;">3.3357</td>
+      <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee; color:#0b3a8a; font-weight: bold;">0.7503</td>
+      <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee; color:#0b3a8a; font-weight: bold;">3.3357</td>
       <td style="padding:10px 12px; text-align:center; border-top:1px solid #eee;">ICME 2026</td>
     </tr>
   </tbody>

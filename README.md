@@ -3,7 +3,7 @@
 
 This repository contains the official PyTorch implementation for ORMamba (**ICME 2026**). 
 
-**⚠️ Project Status: The model checkpoints, and preprocessed datasets will be made publicly available upon the acceptance of our paper at ICME 2026. ⚠️**
+[//]: # (**⚠️ Project Status: The model checkpoints, and preprocessed datasets will be made publicly available upon the acceptance of our paper at ICME 2026. ⚠️**)
 
 ## 🎯 Overview
 we propose Ordinal Regression Mamba (*__ORMamba__*), an end-to-end AQA framework. ORMamba incorporates a multi-scale temporal fusion Mamba module to capture long-range temporal dependencies and explicitly models mistaken actions to learn more discriminative representations.Additionally, the framework integrates ordinal regression with contrastive regression for coarse-to-fine precise score estimation, which significantly improves the overall performance.
